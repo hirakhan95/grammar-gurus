@@ -31,3 +31,15 @@ nav {
     text-align: right;
     
 }
+
+#faq {
+    margin-bottom: 20px;
+}
+
+.question {
+    font-weight: bold;
+}
+
+.answer {
+    margin-top: 5px;
+}
