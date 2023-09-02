@@ -6,3 +6,17 @@
     background-size: cover;
 
 }
+
+header {
+    background-color: #e3ddf7;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+	color: black;
+	margin: 1rem;
+    text-align: right;
+    
+}
