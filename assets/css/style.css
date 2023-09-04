@@ -234,13 +234,27 @@ footer .copyright-text {
 }
 
 details {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-summary {
+details p {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+details summary {
     cursor: pointer;
     padding: 10px;
     background-color: #f0f0f0;
+}
+
+details summary::before {
+    content: "+";
+    font-weight: 800;
+    float: right;
+    margin-left: 10px;
 }
 
 details[open] summary {
@@ -250,15 +264,6 @@ details[open] summary {
 details[open] summary::before {
     content: "-";
     font-weight: 800;
-    float: right;
-    margin-left: 10px;
-}
-
-summary::before {
-    content: "+";
-    font-weight: 800;
-    float: right;
-    margin-left: 10px;
 }
 
 
