@@ -21,6 +21,13 @@ body, h1, h2, h3, p {
     text-align: center;
 }
 
+/* About section styles */
+#about {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
 .imgcss {
     height: 100%;
     width: 100%;
