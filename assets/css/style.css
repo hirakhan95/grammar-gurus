@@ -47,14 +47,13 @@ legend {
 .hero-image-container {
     position: relative;
     text-align: center;
-    color: white;
+    z-index: -1000;
   }
 
 .hero-image {
     height: 100%;
     width: 100%;
     position: relative;
-    z-index: -1000;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
