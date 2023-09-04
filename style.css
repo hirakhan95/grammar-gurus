@@ -36,16 +36,6 @@ body, h1, h2, h3, p {
     text-align: center;
 }
 
-/* Footer section styles */
-footer {
-    
-    color: white;
-    text-align: left;
-    text-transform: capitalize;
-    padding: 25px;
-
-}
-
 /* Form section styles */
 form {
 	width: 700px;
@@ -162,3 +152,26 @@ header {
     border-radius: 5px;
     margin-top: 10px;
 }
+
+
+
+/* Footer section styles */
+/* footer {
+    color: white;
+    text-align: left;
+    text-transform: capitalize;
+    padding: 25px;
+} */
+
+/* Footer section */
+
+.footer-elem {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+
+  .footer-elem .ion-icon-social {
+    text-align:center;
+    padding-bottom:25px;
+  }
