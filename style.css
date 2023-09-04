@@ -1,11 +1,8 @@
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
-    background-color: #e3ddf7;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #e3ddf7;
-
 }
 
 /* Home section styles */
@@ -174,4 +171,12 @@ header {
   .footer-elem .ion-icon-social {
     text-align:center;
     padding-bottom:25px;
+  }
+
+  .footer-elem .copyright-text {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
   }
