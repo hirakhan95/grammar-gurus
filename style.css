@@ -28,6 +28,16 @@ body, h1, h2, h3, p {
     text-align: center;
 }
 
+/* Footer styles */
+footer {
+    
+    color: white;
+    text-align: left;
+    text-transform: capitalize;
+    padding: 25px;
+
+}
+
 .imgcss {
     height: 100%;
     width: 100%;
