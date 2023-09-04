@@ -9,6 +9,11 @@ h2 {
     padding-bottom: 20px;
 }
 
+section {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
 /* Home section styles */
 #home {
     text-align: center;
@@ -32,8 +37,13 @@ h2 {
 /* About section styles */
 #about {
     background-color: #f4f4f4;
-    padding: 2rem;
     text-align: center;
+}
+
+#about p{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 10px;
 }
 
 /* Form section styles */
@@ -219,7 +229,6 @@ footer .copyright-text {
 
 /* FAQ home */
 #faqs {
-    padding: 2rem;
     text-align: center;
 }
 
