@@ -43,7 +43,9 @@ legend {
 	font-weight: 600;
 	text-transform: uppercase;
 }
-/* Hero image styles */
+
+/* Hero image styles starts*/
+
 .hero-image-container {
     position: relative;
     text-align: center;
@@ -82,6 +84,26 @@ legend {
     font-family: cursive;
     color: black;
 }
+
+@media only screen and (max-width: 768px) {
+    .hero-image-text {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+    }
+    
+    .hero-image-text h2 {
+        font-size: 30px;
+    }
+    
+    .hero-image-text p {
+        font-size: 15px;
+    }
+  }
+
+/* Hero image styles ends */
+
 
 header {
     color: #fff;
