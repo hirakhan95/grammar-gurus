@@ -227,7 +227,8 @@ footer .copyright-text {
 /* Footer section end */
 
 .page-title {
-    
+    padding: 20px 20px 20px 20px;
+    font-style: italic;
 }
 
 /* FAQ styling starts */
