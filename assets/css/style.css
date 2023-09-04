@@ -47,12 +47,17 @@ legend {
 /* Hero image styles starts*/
 
 .hero-image-container {
+    
+
     position: relative;
     text-align: center;
     z-index: -1000;
   }
 
 .hero-image-container img {
+    min-height:250px;
+    overflow-x: hidden;
+
     height: 100%;
     width: 100%;
     position: relative;
