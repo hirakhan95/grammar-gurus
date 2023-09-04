@@ -44,6 +44,10 @@ section {
     margin-bottom: 10px;
 }
 
+.course:hover {
+    background-color: #ddd;
+}
+
 /* About section styles */
 #about {
     background-color: #f4f4f4;
