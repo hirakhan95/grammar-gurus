@@ -47,24 +47,20 @@ legend {
 /* Hero image styles starts*/
 
 .hero-image-container {
-    
-
     position: relative;
     text-align: center;
     z-index: -1000;
-  }
+}
 
 .hero-image-container img {
     min-height:250px;
     overflow-x: hidden;
-
     height: 100%;
     width: 100%;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .hero-image-text {
@@ -123,14 +119,14 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-  }
+}
 
 .navbar-alignment{
     float: right;
     padding-right: 20px
 }
   
-  .navbar a {
+.navbar a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -138,12 +134,12 @@ header {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
   
-  .navbar a:hover {
+.navbar a:hover {
     background: #ddd;
     color: black;
-  }
+}
 
 /* FAQ section styles */
 #faq {
