@@ -228,5 +228,38 @@ footer .copyright-text {
 
 /* FAQ styling starts */
 
+.faq-section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+details {
+    margin-bottom: 10px;
+}
+
+summary {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+details[open] summary {
+    background-color: #cacaca;
+}
+
+details[open] summary::before {
+    content: "-";
+    font-weight: 800;
+    float: right;
+    margin-left: 10px;
+}
+
+summary::before {
+    content: "+";
+    font-weight: 800;
+    float: right;
+    margin-left: 10px;
+}
+
 
 /* FAQ styling ends */
