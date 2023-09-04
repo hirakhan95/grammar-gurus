@@ -173,6 +173,16 @@ header {
     padding-bottom:25px;
   }
 
+  .footer-elem .ion-icon-social > a {
+    font-size:24px;
+    opacity:0.8;
+    width:40px;
+    margin:0 8px;
+    display:inline-block;
+    border-radius:50%;
+    border:1px solid #ccc;
+  }
+
   .footer-elem .copyright-text {
     margin-top:15px;
     text-align:center;
