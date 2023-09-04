@@ -7,7 +7,6 @@ body, h1, h2, h3, p {
 
 /* Home section styles */
 #home {
-    background-color: #e3ddf7;
     text-align: center;
     padding: 2rem;
 }
@@ -86,7 +85,6 @@ legend {
 }
 
 header {
-    background-color: #e3ddf7;
     color: #fff;
     padding: 28px;
     text-align: center;
