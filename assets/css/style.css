@@ -5,6 +5,10 @@ body, h1, h2, h3, p {
     line-height: 1.6;
 }
 
+h2 {
+    padding-bottom: 20px;
+}
+
 /* Home section styles */
 #home {
     text-align: center;
@@ -154,24 +158,6 @@ header {
     margin-top: 5px;
 }
 
-/* Contact section styles */
-#faqs {
-    padding: 2rem;
-    text-align: center;
-}
-
-#faqs a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-
-
 /* Footer section start */
 
 footer {
@@ -231,11 +217,39 @@ footer .copyright-text {
     font-style: italic;
 }
 
+/* FAQ home */
+#faqs {
+    padding: 2rem;
+    text-align: center;
+}
+
+#faqs a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.faq-section-home {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
 /* FAQ styling starts */
 
 .faq-section {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .faq-section-home {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 details {
