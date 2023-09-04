@@ -79,11 +79,17 @@ header {
     background-color: #333;
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
   }
+
+.navbar-alignment{
+    float: right;
+    padding-right: 20px
+}
   
   .navbar a {
-    float: right;
+    float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
