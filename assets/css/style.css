@@ -243,9 +243,8 @@ details {
 }
 
 details p {
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(240, 240, 240, 0.589);
 }
 
 
