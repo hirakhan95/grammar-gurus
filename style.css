@@ -166,9 +166,24 @@ footer hr {
     color:#4b4c4d;
   }
 
+  .footer-elem ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-elem ul a {
+    color:inherit;
+    margin-right: 5px;
+    text-decoration:none;
+    opacity:0.8;
+  }
+
   .footer-elem .ion-icon-social {
     text-align:center;
-    padding-bottom:25px;
   }
 
   .footer-elem .ion-icon-social > a {
