@@ -33,7 +33,12 @@ section {
 
 .course {
     background-color: #fff;
-    padding: 1rem;
+
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -49,6 +54,23 @@ section {
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 10px;
+}
+
+/* Media responsiveness for all ids*/
+
+@media only screen and (max-width: 900px) {
+    #home p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .course {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #about p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 /* Form section styles */
