@@ -16,13 +16,18 @@ section {
 
 /* Home section styles */
 #home {
+    background-color: #f4f4f4;
     text-align: center;
-    padding: 2rem;
+}
+
+#home p{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 10px;
 }
 
 /* Courses section styles */
 #courses {
-    padding: 2rem;
     text-align: center;
 }
 
