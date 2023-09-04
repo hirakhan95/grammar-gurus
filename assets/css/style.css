@@ -52,7 +52,7 @@ legend {
     z-index: -1000;
   }
 
-.hero-image {
+.hero-image-container img {
     height: 100%;
     width: 100%;
     position: relative;
