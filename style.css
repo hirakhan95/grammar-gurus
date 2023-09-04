@@ -58,13 +58,44 @@ legend {
 	text-transform: uppercase;
 }
 /* Hero image styles */
-.imgcss {
+.hero-image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.hero-image {
     height: 100%;
     width: 100%;
+    position: relative;
+    z-index: -1000;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
+}
+
+.hero-image-text {
+    background-color: rgba(248, 248, 255, 0.7);
+    position: absolute;
+    top: 50%;
+    padding-right: 30px;
+    padding-left: 30px;
+    right: 20px;
+}
+
+.hero-image-text h2 {
+    font-size: 50px;
+    font-family: cursive;
+    background: none;
+    color: black;
+}
+
+.hero-image-text p {
+    font-size: 25px;
+    background: none;
+    font-family: cursive;
+    color: black;
 }
 
 header {
