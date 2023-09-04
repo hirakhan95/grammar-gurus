@@ -152,15 +152,13 @@ header {
 
 
 
-/* Footer section styles */
-/* footer {
-    color: white;
-    text-align: left;
-    text-transform: capitalize;
-    padding: 25px;
-} */
-
 /* Footer section */
+
+footer hr {
+    opacity: 80%;
+    width: 90%;
+    margin-bottom: 40px;
+}
 
 .footer-elem {
     padding:40px 0;
