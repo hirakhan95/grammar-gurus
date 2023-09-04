@@ -75,10 +75,14 @@ header {
 }
 
 nav {
-	color: black;
+	color: #fff;
 	margin: 1rem;
     text-align: right;
-    
+    padding: 10px 20px;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 /* FAQ section styles */
@@ -94,3 +98,18 @@ nav {
     margin-top: 5px;
 }
 
+/* Contact section styles */
+#faqs {
+    padding: 2rem;
+    text-align: center;
+}
+
+#faqs a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
