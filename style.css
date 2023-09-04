@@ -8,10 +8,17 @@ body, h1, h2, h3, p {
 
 }
 
+/* Home section styles */
 #home {
     background-color: #e3ddf7;
     text-align: center;
     padding: 2rem;
+}
+
+/* Courses section styles */
+#courses {
+    padding: 2rem;
+    text-align: center;
 }
 
 .imgcss {
