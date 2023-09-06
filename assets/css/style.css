@@ -385,8 +385,22 @@ details[open] summary::before {
 
 .form {
     padding: 0px 150px 60px 150px;
-    width: 40%;
+    width: auto;
     margin-bottom: 40px;
+}
+
+.form .form-info{
+    width: 40%;
+    float: left;
+}
+
+.form form {
+    float: right;
+    width:40%;
+}
+
+.form-info img {
+    width: 100%;
 }
 
 .form .button {
