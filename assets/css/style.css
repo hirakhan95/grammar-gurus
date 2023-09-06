@@ -317,14 +317,14 @@ details {
 
 details p {
     padding: 10px 10px 10px 10px;
-    background-color: rgba(240, 240, 240, 0.589);
+    background-color: var(--background-color);
 }
 
 
 details summary {
     cursor: pointer;
     padding: 10px;
-    background-color: #f0f0f0;
+    background-color: var(--background-color);
 }
 
 details summary::before {
@@ -335,7 +335,8 @@ details summary::before {
 }
 
 details[open] summary {
-    background-color: #cacaca;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
 }
 
 details[open] summary::before {
