@@ -517,6 +517,10 @@ details[open] summary::before {
     padding-top: 20px;
 }
 
+.padding-bottom-60px {
+    padding-bottom: 60px;
+}
+
 @media only screen and (max-width: 900px) {
     .teacher {
         margin: 0px 100px 0px 100px;
@@ -528,6 +532,7 @@ details[open] summary::before {
         margin: 0px 20px 0px 20px;
     }
 }
+
 
 
 /* Professionals page styling ends */
