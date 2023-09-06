@@ -498,12 +498,21 @@ details[open] summary::before {
 /* Professionals page styling starts */
 
 .teacher {
-    padding: 0px 150px 0px 150px;
+    margin: 0px 150px 0px 150px;
+    padding: 0px 0px 0px 0px;
     width: auto;
+    border: 2px solid var(--secondary-color-dark);
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .teacher img {
-    width: 200px;
+    width: 100px;
+    float: left;
+}
+
+.teacher info {
+    float: right;
 }
 
 /* Professionals page styling ends */
