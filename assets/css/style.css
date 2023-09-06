@@ -418,11 +418,6 @@ details[open] summary::before {
     background-color: var(--primary-color);
 }
 
-.contact-form-background-design {
-    background-color: var(--background-color);
-    width: 100%;
-}
-
 @media only screen and (max-width: 900px) {
     .form {
         padding: 0px 100px 60px 100px;
