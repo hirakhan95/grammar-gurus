@@ -56,11 +56,13 @@ A separate portion has been created for storing color values which are reference
 - **Navigation Bar**
 
   - Featured on all five pages, the full responsive navigation bar includes links to the Home page, Courses, Frequently Asked Questions and Contact page and are present on each page for the easy navigation to the respective pages.
+    ![Website look on devices](./assets/readme/1.png)
 
 - **The hero page image**
 
   - The hero includes an image with text overlay to allow the user to instantly understand what the website is about.
   - This section introduces the user to Grammar Gurus an eye catching image to grab their attention
+    ![Website look on devices](./assets/readme/2.png)
 
 - **Site Description Section**
 
@@ -70,23 +72,28 @@ A separate portion has been created for storing color values which are reference
 
   - The courses section will allow the user to check the courses offered by Grammar Gurus i.e. German and English
   - When the user click on the desired course, an another page opens about the information of professionals teaching the desired course.
+    ![Website look on devices](./assets/readme/3_1.png)
+    ![Website look on devices](./assets/readme/3.png)
 
 - **FAQs section**
 
   - This section will allow the user to see most common frequently asked questions.
   - This section also has a button for additional questions which user might be having regarding Grammar Gurus.
   - The button will lead the user to another page of all the frequently asked questions with their answers.
+    ![Website look on devices](./assets/readme/4.png)
 
 - **The Footer**
 
   - The footer section includes links to the social media sites (e.g. instagram, snapchat, twitter, facebook) for Grammar Gurus.
   - The footer section also has links to the other pages for the easy navigation.
   - The footer has copyright of Grammar Gurus as well.
+    ![Website look on devices](./assets/readme/5.png)
 
 - **The Contact Page**
 
   - The contact page will enable the user to enter their details (Name, Email, Phone number) and send the inquiry to Grammar Gurus.
   - The contact details are required in order to be contacted by Grammar Gurus about the courses.
+    ![Website look on devices](./assets/readme/6.png)
 
 ### Future Section to be added
 
