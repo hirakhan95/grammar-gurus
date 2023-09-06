@@ -53,13 +53,13 @@ section {
 #courses {
     text-align: center;
     color: var(--dark-text-color);
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 .course {
     background-color: var(--secondary-color);
-
-    margin-left: 30%;
-    margin-right: 30%;
+    width: 100%;
     padding-bottom: 10px;
     padding-top: 10px;
 
@@ -93,9 +93,9 @@ section {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .course {
-        margin-left: 20px;
-        margin-right: 20px;
+    #courses {
+        padding-left: 20px;
+        padding-right: 20px;
     }
     #about p{
         padding-left: 20px;
