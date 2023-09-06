@@ -130,14 +130,14 @@ legend {
     font-size: 50px;
     font-family: cursive;
     background: none;
-    color: black;
+    color: var(--black-color);
 }
 
 .hero-image-text p {
     font-size: 25px;
     background: none;
     font-family: cursive;
-    color: black;
+    color: var(--black-color);
 }
 
 @media only screen and (max-width: 768px) {
@@ -161,14 +161,14 @@ legend {
 
 
 header {
-    color: #fff;
+    color: var(--white-color);
     padding: 27px;
     text-align: center;
 }
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: var(--primary-color);
     position: fixed;
     top: 0;
     left: 0;
@@ -183,7 +183,7 @@ header {
 .navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: var(--white-color);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -191,8 +191,8 @@ header {
 }
   
 .navbar a:hover {
-    background: #ddd;
-    color: black;
+    background: var(--secondary-color);
+    color: var(--black-color);
 }
 
 /* FAQ section styles */
@@ -212,7 +212,7 @@ header {
 
 footer {
     padding: 20px 0;
-    background-color:#ffffff;
+    background-color: var(--white-color);
     color:#4b4c4d;
 }
 
