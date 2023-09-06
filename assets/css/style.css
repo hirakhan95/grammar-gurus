@@ -1,7 +1,9 @@
 :root {
-    --primary-color: #388e3c;
-    --secondary-color: #0074E4;
-    --accent-color: #ff9800;
+    --primary-color: #2a9d8f;
+    --secondary-color: #f4a261;
+    --accent-color: #e9c46a;
+    --hard-color: #f4a261;
+    --dark-color: #264653;
     --background-color: #FFFDFA;
     --white-color: white;
     --black-color: black;
@@ -252,7 +254,7 @@ footer .ion-icon-social > a {
     margin:0 8px;
     display:inline-block;
     border-radius:50%;
-    border:1px solid #ccc;
+    border:1px solid var(--secondary-color);
 }
 
 footer .copyright-text {
