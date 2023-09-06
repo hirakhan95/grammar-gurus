@@ -68,6 +68,14 @@ section {
     margin-bottom: 10px;
 }
 
+.course h3 {
+    font-size: 1.4em;
+}
+
+.course p {
+    font-size: 1.2em;
+}
+
 .course:hover {
     background-color: var(--secondary-color-dark);
 }
