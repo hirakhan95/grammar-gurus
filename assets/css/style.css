@@ -384,8 +384,8 @@ details[open] summary::before {
 /* Contact Us Form section started */
 
 .form {
-    padding: 0px 150px 40px 150px;
-    width: auto;
+    padding: 0px 150px 60px 150px;
+    width: 40%;
     margin-bottom: 40px;
 }
 
@@ -406,13 +406,13 @@ details[open] summary::before {
 
 @media only screen and (max-width: 900px) {
     .form {
-        padding: 0px 100px 40px 100px;
+        padding: 0px 100px 60px 100px;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .form {
-        padding: 0px 20px 40px 20px;
+        padding: 0px 20px 60px 20px;
     }
 }
 
