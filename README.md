@@ -2,6 +2,8 @@
 
 Grammar Guru is an online platform where German and English classes are offered by professionals, which can be easily scheduled from the platform itself around the globe. The classes will be offered by the highly qualified and certified teachers. You're just a meassage away from mastering the art of German and English.
 
+![Website look on different devices](./assets/readme/demo.PNG)
+
 # Table of Contents
 
 1. [Introduction](#introduction)
