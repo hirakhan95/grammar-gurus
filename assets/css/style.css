@@ -383,6 +383,20 @@ details[open] summary::before {
 
 /* Contact Us Form section started */
 
+.form {
+    padding: 0px 150px 40px 150px;
+    width: auto;
+}
+
+.form .button {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+
+.form .button:hover {
+    
+}
+
 
 
 /* Contact Us Form section ends*/
