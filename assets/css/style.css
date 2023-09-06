@@ -25,7 +25,7 @@ section {
 
 /* Home section styles */
 #home {
-    background-color: #f4f4f4;
+    background-color: var(--background-color);
     text-align: center;
 }
 
@@ -41,20 +41,20 @@ section {
 }
 
 .course {
-    background-color: #fff;
+    background-color: var(--background-color);
 
     margin-left: 150px;
     margin-right: 150px;
     padding-bottom: 10px;
     padding-top: 10px;
 
-    border: 1px solid #ddd;
+    border: 1px solid var(--white-color);
     border-radius: 5px;
     margin-bottom: 10px;
 }
 
 .course:hover {
-    background-color: #ddd;
+    background-color: var(--white-color);
 }
 
 /* About section styles */
