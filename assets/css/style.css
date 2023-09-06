@@ -267,6 +267,14 @@ footer .ion-icon-social > a {
     border:1px solid var(--secondary-color);
 }
 
+footer .ion-icon-social a i {
+    color: var(--secondary-color-dark);
+}
+
+footer ul a {
+    color: var(--secondary-color-dark);
+}
+
 footer .copyright-text {
     margin-top:15px;
     text-align:center;
@@ -311,7 +319,7 @@ footer .copyright-text {
 }
 
 .faqs a:hover {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color-dark);
 }
 
 .faq-section-home {
@@ -381,7 +389,7 @@ details summary::before {
 }
 
 details[open] summary {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: var(--white-color);
 }
 
@@ -428,7 +436,7 @@ details[open] summary::before {
 }
 
 .form .button:hover {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color-dark);
 }
 
 @media only screen and (max-width: 900px) {
