@@ -386,17 +386,8 @@ details[open] summary::before {
 .form {
     padding: 0px 150px 40px 150px;
     width: auto;
+    margin-bottom: 40px;
 }
-
-.form .button {
-    background-color: var(--dark-color);
-    color: var(--white-color);
-}
-
-.form .button:hover {
-    
-}
-
 
 
 /* Contact Us Form section ends*/
