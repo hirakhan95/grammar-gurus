@@ -517,8 +517,17 @@ details[open] summary::before {
     float: right;
 }
 
-.teacher .info {
+.left-align .info {
     padding-left: 120px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.right-align .info {
+    text-align: left;
+
+    padding-right: 120px;
+    padding-left: 20px;
     padding-top: 20px;
 }
 
