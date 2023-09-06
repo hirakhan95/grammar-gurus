@@ -497,4 +497,13 @@ details[open] summary::before {
 
 /* Professionals page styling starts */
 
+.teacher {
+    padding: 0px 150px 0px 150px;
+    width: auto;
+}
+
+.teacher img {
+    width: 200px;
+}
+
 /* Professionals page styling ends */
