@@ -309,13 +309,6 @@ footer .copyright-text {
     padding-right: 150px;
 }
 
-/* FAQ styling starts */
-
-.faq-section {
-    padding-left: 150px;
-    padding-right: 150px;
-}
-
 @media only screen and (max-width: 900px) {
     .faq-section-home {
         padding-left: 100px;
@@ -330,11 +323,34 @@ footer .copyright-text {
     }
 }
 
+/* FAQ styling starts */
+
+.faq-section {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+    .faq-section {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .faq-section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
 details {
     margin-bottom: 20px;
 }
 
 details p {
+    color: var(--dark-text-color);
     padding: 10px 10px 10px 10px;
     background-color: var(--background-color);
 }
