@@ -274,15 +274,25 @@ footer .copyright-text {
 }
 
 /* FAQ home */
-#faqs {
+.faqs {
     text-align: center;
 }
 
-#faqs a {
+.faqs a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
+    background-color: var(--dark-color);
+    color: var(--white-color);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#faqs a:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--dark-color);
+    color: var(--white-color);
     text-decoration: none;
     border-radius: 5px;
     margin-top: 10px;
