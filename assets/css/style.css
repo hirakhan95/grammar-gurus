@@ -68,7 +68,7 @@ section {
 
 /* About section styles */
 #about {
-    background-color: #f4f4f4;
+    background-color: var(--background-color);
     text-align: center;
 }
 
@@ -201,7 +201,7 @@ header {
 }
   
 .navbar a:hover {
-    background: var(--secondary-color);
+    background: var(--secondary-color-dark);
     color: var(--white-color);
 }
 
