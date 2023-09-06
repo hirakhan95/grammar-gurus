@@ -1,10 +1,12 @@
 :root {
     --primary-color: #388e3c;
-    --secondary-color: #ffffff;
+    --secondary-color: #0074E4;
     --accent-color: #ff9800;
     --background-color: #FFFDFA;
     --white-color: white;
     --black-color: black;
+
+    --hero-text-background-color: rgba(255, 253, 250, 0.7);
   }
 
 body, h1, h2, h3, p {
@@ -118,7 +120,7 @@ legend {
 }
 
 .hero-image-text {
-    background-color: rgba(248, 248, 255, 0.7);
+    background-color: var(--hero-text-background-color);
     position: absolute;
     top: 50%;
     padding-right: 30px;
@@ -138,6 +140,7 @@ legend {
     background: none;
     font-family: cursive;
     color: var(--black-color);
+    padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -212,7 +215,7 @@ header {
 
 footer {
     padding: 20px 0;
-    background-color: var(--white-color);
+    background-color: var(--background-color);
     color: var(--accent-color);
 }
 
