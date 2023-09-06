@@ -269,8 +269,20 @@ footer .copyright-text {
 /* Footer section end */
 
 .page-title {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 150px 20px 150px;
     font-style: italic;
+}
+
+@media only screen and (max-width: 900px) {
+    .page-title {
+        padding: 20px 100px 20px 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .page-title {
+        padding: 20px 20px 20px 20px;
+    }
 }
 
 /* FAQ home */
@@ -300,11 +312,18 @@ footer .copyright-text {
 /* FAQ styling starts */
 
 .faq-section {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 @media only screen and (max-width: 900px) {
+    .faq-section-home {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
     .faq-section-home {
         padding-left: 20px;
         padding-right: 20px;
