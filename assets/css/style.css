@@ -1,10 +1,15 @@
 :root {
-    --primary-color: #2a9d8f;
-    --secondary-color: #f4a261;
+    --primary-color: #2a9d8f ;
+    
+    --secondary-color-dark: #f4a261;
+    --secondary-color: #f4a361bb;
+
     --accent-color: #e9c46a;
-    --hard-color: #f4a261;
+    
+    --hard-color: #e76f51;
     --dark-color: #264653;
-    --background-color: #FFFDFA;
+
+    --background-color: #F2F0EB;
     --white-color: white;
     --black-color: black;
 
@@ -45,7 +50,7 @@ section {
 }
 
 .course {
-    background-color: var(--background-color);
+    background-color: var(--secondary-color);
 
     margin-left: 150px;
     margin-right: 150px;
@@ -58,7 +63,7 @@ section {
 }
 
 .course:hover {
-    background-color: var(--white-color);
+    background-color: var(--secondary-color-dark);
 }
 
 /* About section styles */
@@ -131,17 +136,17 @@ legend {
 }
 
 .hero-image-text h2 {
+    color: var(--dark-color);
     font-size: 50px;
     font-family: cursive;
     background: none;
-    color: var(--black-color);
 }
 
 .hero-image-text p {
+    color: var(--dark-color);
     font-size: 25px;
     background: none;
     font-family: cursive;
-    color: var(--black-color);
     padding-bottom: 20px;
 }
 
@@ -197,7 +202,7 @@ header {
   
 .navbar a:hover {
     background: var(--secondary-color);
-    color: var(--black-color);
+    color: var(--white-color);
 }
 
 /* FAQ section styles */
@@ -218,7 +223,7 @@ header {
 footer {
     padding: 20px 0;
     background-color: var(--background-color);
-    color: var(--accent-color);
+    color: var(--secondary-color-dark);
 }
 
 footer hr {
