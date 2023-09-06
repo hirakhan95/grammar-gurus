@@ -396,7 +396,7 @@ details[open] summary::before {
 
 .form form {
     float: right;
-    width:40%;
+    width: 40%;
 }
 
 .form-info img {
@@ -416,6 +416,11 @@ details[open] summary::before {
 
 .form .button:hover {
     background-color: var(--primary-color);
+}
+
+.contact-form-background-design {
+    background-color: var(--background-color);
+    width: 100%;
 }
 
 @media only screen and (max-width: 900px) {
