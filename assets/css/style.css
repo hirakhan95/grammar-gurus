@@ -481,7 +481,7 @@ details[open] summary::before {
         padding: 0px 20px 60px 20px;
     }
 
-    form .form-info{
+    .form .form-info{
         width: 100%;
         float: left;
     }
