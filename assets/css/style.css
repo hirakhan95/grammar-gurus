@@ -13,6 +13,8 @@
     --white-color: white;
     --black-color: black;
 
+    --dark-text-color: #264653;
+
     --hero-text-background-color: rgba(255, 253, 250, 0.7);
   }
 
@@ -36,6 +38,7 @@ section {
 #home {
     background-color: var(--background-color);
     text-align: center;
+    color: var(--dark-text-color);
 }
 
 #home p{
@@ -266,7 +269,7 @@ footer .copyright-text {
     margin-top:15px;
     text-align:center;
     font-size:13px;
-    color:#aaa;
+    color: var(--dark-color);
     margin-bottom:0;
 }
 
