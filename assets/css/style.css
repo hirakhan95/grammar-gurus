@@ -504,6 +504,7 @@ details[open] summary::before {
     border: 2px solid var(--secondary-color-dark);
     border-radius: 5px;
     overflow: hidden;
+    background-color: var(--background-color);
 }
 
 .teacher img {
@@ -511,8 +512,10 @@ details[open] summary::before {
     float: left;
 }
 
-.teacher info {
-    float: right;
+.teacher .info {
+    padding-left: 120px;
+    padding-top: 20px;
 }
+
 
 /* Professionals page styling ends */
