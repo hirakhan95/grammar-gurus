@@ -1,5 +1,6 @@
 /* Form section styles */
 form {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: var(--dark-text-color);
 	width: 700px;
     text-align: justify;
@@ -7,10 +8,14 @@ form {
 
 legend {
 	font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 	font-weight: 600;
 	text-transform: uppercase;
 }
 
+input, select, textarea {
+    font-family: inherit; 
+  }
 /* Contact Us Form section started */
 
 .form {
