@@ -35,37 +35,49 @@ section {
     padding-top: 2rem;
 }
 
-/* Home section styles */
-#home {
-    background-color: var(--background-color);
+
+
+
+
+
+.index-section {
+	background-color: var(--background-color);
     text-align: center;
-    color: var(--dark-text-color);
+  	color: var(--dark-text-color);
+
+
+ 	padding-left: 150px;
+ 	padding-right: 150px;
 }
 
-#home p{
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 10px;
-    color: var(--dark-text-color);
+.index-section p {
+	padding-bottom: 10px;
+	color: var(--dark-text-color);
 }
 
-/* Courses section styles */
-#courses {
-    text-align: center;
-    color: var(--dark-text-color);
-    padding-left: 30%;
-    padding-right: 30%;
+.white-bg {
+    background-color: white;
 }
+
 
 .course {
-    background-color: var(--secondary-color);
     width: 100%;
+    background-color: var(--secondary-color);
+    color: var(--secondary-color);
+
     padding-bottom: 10px;
     padding-top: 10px;
 
     border: 1px solid var(--white-color);
     border-radius: 5px;
     margin-bottom: 10px;
+
+
+}
+
+.course a {
+    text-decoration: none;
+    width: 650px;
 }
 
 .course h3 {
@@ -80,49 +92,18 @@ section {
     background-color: var(--secondary-color-dark);
 }
 
-/* About section styles */
-#about {
-    color: var(--dark-text-color);
-    background-color: var(--background-color);
-    text-align: center;
-}
-
-#about p{
-    color: var(--dark-text-color);
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 10px;
-}
-
-/* Media responsiveness for all ids*/
-
 @media only screen and (max-width: 900px) {
-    #home p{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    #courses {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    #about p{
+    .index-section {
         padding-left: 20px;
         padding-right: 20px;
     }
 }
 
-/* Form section styles */
-form {
-    color: var(--dark-text-color);
-	width: 700px;
-    text-align: justify;
-}
 
-legend {
-	font-size: large;
-	font-weight: 600;
-	text-transform: uppercase;
-}
+
+
+
+
 
 /* Hero image styles starts*/
 
@@ -302,251 +283,3 @@ footer .copyright-text {
         padding: 20px 20px 20px 20px;
     }
 }
-
-/* FAQ home */
-.faqs {
-    text-align: center;
-}
-
-.faqs a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: var(--dark-color);
-    color: var(--white-color);
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-}
-
-.faqs a:hover {
-    background-color: var(--secondary-color-dark);
-}
-
-.faq-section-home {
-    padding-left: 150px;
-    padding-right: 150px;
-}
-
-@media only screen and (max-width: 900px) {
-    .faq-section-home {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .faq-section-home {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
-/* FAQ styling starts */
-
-.faq-section {
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 40px;
-}
-
-@media only screen and (max-width: 900px) {
-    .faq-section {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .faq-section {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-}
-
-details {
-    margin-bottom: 20px;
-}
-
-details p {
-    color: var(--dark-text-color);
-    padding: 10px 10px 10px 10px;
-    background-color: var(--background-color);
-}
-
-
-details summary {
-    color: var(--dark-text-color);
-    cursor: pointer;
-    padding: 10px;
-    background-color: var(--background-color);
-}
-
-details summary::before {
-    content: "+";
-    font-weight: 800;
-    float: right;
-    margin-left: 10px;
-}
-
-details[open] summary {
-    background-color: var(--primary-color);
-    color: var(--white-color);
-}
-
-details[open] summary::before {
-    content: "-";
-    font-weight: 800;
-}
-
-/* FAQ styling ends */
-
-/* Contact Us Form section started */
-
-.form {
-    color: var(--dark-text-color);
-    padding: 0px 150px 60px 150px;
-    width: auto;
-    margin-bottom: 40px;
-}
-
-.form .form-info{
-    width: 40%;
-    float: left;
-}
-
-.form form {
-    float: right;
-    width: 40%;
-}
-
-.form-info img {
-    width: 100%;
-}
-
-.form .button {
-    padding: 10px 20px 10px 20px;
-    margin-bottom: 60px;
-    background-color: var(--dark-color);
-    color: var(--white-color);
-    margin-top: 20px;
-    border: 1px solid var(--white-color);
-    border-radius: 5px;
-    font-size: 20px;
-    float: right;
-}
-
-.form .button:hover {
-    background-color: var(--secondary-color-dark);
-}
-
-@media only screen and (max-width: 900px) {
-    .form {
-        padding: 0px 100px 60px 100px;
-    }
-
-    .form .form-info{
-        width: 45%;
-        float: left;
-    }
-
-    .form form {
-        float: right;
-        width: 45%;
-    }
-}
-.form form fieldset {
-    width: 100%;
-}
-
-.form form fieldset input {
-    width: 93%;
-    padding: 10px;
-    border: 1px solid var(--primary-color);
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-.form form fieldset textarea {
-    width: 95%;
-    padding: 10px;
-    border: 1px solid var(--primary-color);
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-@media only screen and (max-width: 768px) {
-    .form {
-        padding: 0px 20px 60px 20px;
-    }
-
-    .form .form-info{
-        width: 100%;
-        float: left;
-    }
-
-    .form form {
-        float: right;
-        width: 100%;
-        padding-right: 20px;
-    }
-}
-
-/* Contact Us Form section ends*/
-
-/* Professionals page styling starts */
-
-.teacher {
-    margin: 0px 150px 20px 150px;
-    padding: 0px 0px 0px 0px;
-    width: auto;
-    border: 2px solid var(--secondary-color-dark);
-    border-radius: 5px;
-    overflow: hidden;
-    background-color: var(--background-color);
-}
-
-.left-align img {
-    width: 100px;
-    float: left;
-}
-
-.right-align img {
-    width: 100px;
-    float: right;
-}
-
-.left-align .info {
-    padding-left: 120px;
-    padding-right: 20px;
-    padding-top: 20px;
-}
-
-.right-align .info {
-    text-align: left;
-
-    padding-right: 120px;
-    padding-left: 20px;
-    padding-top: 20px;
-}
-
-.padding-bottom-60px {
-    padding-bottom: 60px;
-}
-
-@media only screen and (max-width: 900px) {
-    .teacher {
-        margin: 0px 100px 20px 100px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .teacher {
-        margin: 0px 20px 20px 20px;
-    }
-}
-
-
-
-/* Professionals page styling ends */

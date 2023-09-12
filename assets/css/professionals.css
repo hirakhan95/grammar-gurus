@@ -1,0 +1,55 @@
+/* Professionals page styling starts */
+
+.teacher {
+    margin: 0px 150px 20px 150px;
+    padding: 0px 0px 0px 0px;
+    width: auto;
+    border: 2px solid var(--secondary-color-dark);
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: var(--background-color);
+}
+
+.left-align img {
+    width: 100px;
+    float: left;
+}
+
+.right-align img {
+    width: 100px;
+    float: right;
+}
+
+.left-align .info {
+    padding-left: 120px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.right-align .info {
+    text-align: left;
+
+    padding-right: 120px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.padding-bottom-60px {
+    padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 900px) {
+    .teacher {
+        margin: 0px 100px 20px 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .teacher {
+        margin: 0px 20px 20px 20px;
+    }
+}
+
+
+
+/* Professionals page styling ends */
